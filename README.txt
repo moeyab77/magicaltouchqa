@@ -1,225 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Magical Touch Trading offers smart home automation, smart lighting, smart locks, sound systems, Wi-Fi and intercom solutions in Qatar." />
-  <title>Magical Touch Trading | Smart Living Made Simple</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="site-header" id="home">
-    <div class="header-content">
-      <a class="brand" href="#home" aria-label="Magical Touch Trading - home">
-        <img src="assets/logo.png" alt="Magical Touch Trading" />
-      </a>
+MAGICAL TOUCH TRADING WEBSITE — SMART HOME / WI-FI / INTERCOM VERSION
 
-      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+This update has:
+• Removed Smart Curtains from the website.
+• Removed the Smart Curtains featured product card.
+• Added Smart Home as the main solution category.
+• Added Wi-Fi Systems.
+• Kept Intercom Systems.
+• Removed CCTV from the previous update.
+• Corrected the contact email to info@magicaltouchqa.com.
 
-      <nav class="desktop-nav" aria-label="Primary">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#solutions">Services</a>
-        <a href="#products">Products</a>
-        <a href="#projects">Projects</a>
-        <a href="#why-us">Why Us</a>
-        <a href="#contact">Contact Us</a>
-      </nav>
+GITHUB UPLOAD:
+1. Download and extract this ZIP on your computer.
+2. Open your GitHub repository.
+3. Upload / replace index.html, style.css, script.js, and the entire assets folder in the repository root.
+4. Commit changes to the main branch.
+5. Wait a few minutes, then refresh magicaltouchqa.com with Ctrl + F5.
 
-      <a class="quote-button header-button" href="#contact">
-        <span class="whatsapp-mini" aria-hidden="true">◔</span>
-        Get a Quote
-      </a>
-    </div>
-  </header>
+Keep this folder structure exactly:
+index.html
+style.css
+script.js
+assets/
 
-  <main>
-    <section class="hero">
-      <div class="hero-left-circuit circuit-art" aria-hidden="true"></div>
-      <div class="hero-right-circuit circuit-art" aria-hidden="true"></div>
 
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <h1>Smart Living<br />Made Simple</h1>
-          <p class="hero-description">
-            We provide complete smart home solutions<br class="desktop-break" />
-            with the latest technology and premium quality.
-          </p>
-
-          <div class="hero-values">
-            <div class="hero-value">
-              <span class="circle-icon">
-                <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M6 18.2 21 6l15 12.2V34a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V18.2Z"/><path d="M16.2 36v-9.1h9.6V36M15 18.2c1.1-3.2 3.3-4.8 6.4-4.8 2.8 0 5 1.3 6.1 3.9M18.4 20.4h5.5M18.4 23.7h5.5"/></svg>
-              </span>
-              <span>Smart Home</span>
-            </div>
-            <div class="hero-value">
-              <span class="circle-icon">
-                <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M21 5.6 33.3 10v9.8c0 8.3-5 13.8-12.3 16.2-7.3-2.4-12.3-7.9-12.3-16.2V10L21 5.6Z"/><path d="m15.9 20.8 3.2 3.2 6.8-7"/></svg>
-              </span>
-              <span>Security</span>
-            </div>
-            <div class="hero-value">
-              <span class="circle-icon">
-                <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M21 6.2c-5.6 0-10.1 4.5-10.1 10.1 0 3.4 1.6 6.3 4.4 8.1 1.6 1 2.2 2.4 2.2 4h7c0-1.6.6-3 2.2-4 2.8-1.8 4.4-4.7 4.4-8.1C31.1 10.7 26.6 6.2 21 6.2Z"/><path d="M17.5 32h7M18.8 36h4.4M21 1.5v2.6M6.2 8.2l2 2M35.8 8.2l-2 2M4.6 20.5h2.7M34.7 20.5h2.7"/></svg>
-              </span>
-              <span>Comfort</span>
-            </div>
-            <div class="hero-value">
-              <span class="circle-icon">
-                <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M34.5 6.2C20.4 6.5 10.2 13 8.5 26.3c-.5 4.5 1.7 7.2 5.9 7.2 13.8 0 19.3-13.1 20.1-27.3Z"/><path d="M8 35c5.9-9.7 12.1-16.3 22.5-23"/></svg>
-              </span>
-              <span>Efficiency</span>
-            </div>
-          </div>
-
-          <a class="gold-button" href="#solutions">Explore Solutions <span>›</span></a>
-        </div>
-
-        <div class="hero-visual">
-          <img src="assets/hero.png" alt="Luxury smart home with app control" />
-        </div>
-      </div>
-    </section>
-
-    <section class="section-card solutions-card" id="solutions">
-      <div class="section-title">
-        <h2>Our Smart Home Solutions</h2>
-        <span class="sparkle">✦</span>
-      </div>
-
-      <div class="solutions-grid">
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M7 22 26 6l19 16v21H7V22Z"/><path d="M18 43V31h16v12M17 21c1.5-4.1 4.5-6.2 8.8-6.2 3.8 0 6.7 1.9 8.1 5.2M21 23h8M21 27h8"/><circle cx="38" cy="15" r="3"/><path d="M38 7v3M30 15h3M43 15h3"/></svg></span>
-          <span>Smart Home</span>
-        </a>
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M26 8c-7 0-12.7 5.7-12.7 12.7 0 4.2 2 7.9 5.5 10.2 2 1.3 2.8 3 2.8 5h8.8c0-2 .8-3.7 2.8-5 3.5-2.3 5.5-6 5.5-10.2C38.7 13.7 33 8 26 8Z"/><path d="M21.6 40h8.8M23.1 45h5.8M26 2v3M10.1 10.1l2.2 2.2M41.9 10.1l-2.2 2.2M4 26h3M45 26h3"/></svg></span>
-          <span>Smart Lighting</span>
-        </a>
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><rect x="16" y="4" width="14" height="44" rx="3"/><circle cx="23" cy="14" r="2.8"/><path d="M29 22h13l5 5-5 5H29M16 24h-6v12h6M21 28h4M21 37h4"/></svg></span>
-          <span>Smart Locks</span>
-        </a>
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><rect x="13" y="4" width="26" height="44" rx="4"/><circle cx="26" cy="16" r="5"/><circle cx="26" cy="34" r="8"/><path d="M21 43h10"/></svg></span>
-          <span>Sound Systems</span>
-        </a>
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M9 20.5C14.6 14.9 20.3 12 26 12s11.4 2.9 17 8.5"/><path d="M14.5 26c3.8-3.8 7.7-5.7 11.5-5.7s7.7 1.9 11.5 5.7"/><path d="M20.1 31.6c2-2 3.9-3 5.9-3s3.9 1 5.9 3"/><circle cx="26" cy="38.4" r="2.3" fill="currentColor" stroke="none"/></svg></span>
-          <span>Wi-Fi Systems</span>
-        </a>
-        <a class="solution-item" href="#contact">
-          <span class="solution-icon"><svg viewBox="0 0 52 52" aria-hidden="true"><rect x="14" y="5" width="24" height="42" rx="4"/><circle cx="26" cy="19" r="7"/><path d="M22 38h8M26 27v3"/></svg></span>
-          <span>Intercom Systems</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="section-card why-card" id="why-us">
-      <div class="why-copy">
-        <h2>Why Choose<br />Magical Touch?</h2>
-        <p>We are committed to providing reliable,<br />innovative and high-quality smart solutions<br />tailored to your lifestyle.</p>
-        <a class="gold-button small-button" href="#contact">Learn More <span>›</span></a>
-      </div>
-
-      <div class="why-list">
-        <article class="why-item">
-          <span class="why-icon"><svg viewBox="0 0 55 55" aria-hidden="true"><circle cx="27.5" cy="27.5" r="16"/><path d="m20.5 27.7 4.6 4.6 9.4-10M14 43l-2 8 8-2M41 43l2 8-8-2"/></svg></span>
-          <h3>1 Year Warranty</h3>
-          <p>1 year on equipment<br />&amp; 1 year on installation</p>
-        </article>
-        <article class="why-item">
-          <span class="why-icon"><svg viewBox="0 0 55 55" aria-hidden="true"><circle cx="27.5" cy="14" r="5"/><circle cx="15" cy="25" r="4"/><circle cx="40" cy="25" r="4"/><path d="M19 41c0-7 4-12 8.5-12S36 34 36 41M6 42c0-6 3.5-10 9-10s9 4 9 10M31 42c0-6 3.5-10 9-10s9 4 9 10M7 12l3-3 3 3M42 12l3-3 3 3"/></svg></span>
-          <h3>Professional Team</h3>
-          <p>Experienced &amp; certified<br />installation team</p>
-        </article>
-        <article class="why-item">
-          <span class="why-icon"><svg viewBox="0 0 55 55" aria-hidden="true"><path d="M27.5 6 44 12v12.8c0 11.2-6.8 18.5-16.5 22.2C17.8 43.3 11 36 11 24.8V12l16.5-6Z"/><path d="m19.5 25.6 5.4 5.4 11-11"/></svg></span>
-          <h3>Premium Quality</h3>
-          <p>We use top brands and<br />high quality products</p>
-        </article>
-        <article class="why-item">
-          <span class="why-icon"><svg viewBox="0 0 55 55" aria-hidden="true"><circle cx="27.5" cy="27.5" r="11"/><path d="M27.5 4v8M27.5 43v8M4 27.5h8M43 27.5h8M10.9 10.9l5.7 5.7M38.4 38.4l5.7 5.7M44.1 10.9l-5.7 5.7M16.6 38.4l-5.7 5.7"/></svg></span>
-          <h3>After Sales Support</h3>
-          <p>Dedicated support<br />whenever you need us</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-card products-card" id="products">
-      <div class="section-title">
-        <h2>Featured Products</h2>
-        <span class="sparkle">✦</span>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card">
-          <img src="assets/switch.png" alt="White smart switch" />
-          <div><h3>Smart Switches</h3><p>Modern design with<br />smart functionality</p></div>
-        </article>
-        <article class="product-card">
-          <img src="assets/panel.png" alt="Smart home control panel" />
-          <div><h3>Smart Panels</h3><p>Control everything<br />from one place</p></div>
-        </article>
-        <article class="product-card">
-          <img src="assets/lock.png" alt="Black smart door lock" />
-          <div><h3>Smart Door Locks</h3><p>Multiple unlocking<br />methods</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="contact-strip" id="projects">
-      <span class="contact-home-icon" aria-hidden="true">
-        <svg viewBox="0 0 50 50"><path d="M6 22 25 6l19 16v21H6V22Z"/><path d="M18 43V31h14v12M17 21c1.6-4.4 4.5-6.6 8.7-6.6 3.7 0 6.6 1.8 8 5.3M21 23h8M21 27h8"/></svg>
-      </span>
-      <div class="contact-strip-copy">
-        <h2>Ready to Make Your Home Smarter?</h2>
-        <p>Contact us today for a free consultation and quotation.</p>
-      </div>
-      <a class="contact-white-button" href="https://wa.me/97455815650" target="_blank" rel="noopener">
-        <span>◔</span> Contact Us
-      </a>
-    </section>
-
-    <footer class="site-footer" id="contact">
-      <div class="footer-main">
-        <div class="footer-about">
-          <img src="assets/footer_logo.png" alt="Magical Touch Trading" />
-          <p>We provide complete smart home solutions including<br />smart lighting, smart locks, sound systems,<br />Wi-Fi and intercom systems.</p>
-        </div>
-
-        <div class="footer-contact">
-          <p><span>⌖</span> Al Aziziya, Doha, Qatar</p>
-          <p><span>◔</span> <a href="tel:+97455815650">5581 5650</a></p>
-          <p><span>✉</span> <a href="mailto:info@magicaltouchqa.com">info@magicaltouchqa.com</a></p>
-          <p><span>◎</span> <a href="https://www.instagram.com/smartlivingqa/" target="_blank" rel="noopener">smartlivingqa</a></p>
-        </div>
-
-        <div class="footer-links">
-          <h3>Quick Links</h3>
-          <div>
-            <a href="#home">Home</a><a href="#products">Products</a>
-            <a href="#about">About Us</a><a href="#projects">Projects</a>
-            <a href="#solutions">Services</a><a href="#contact">Contact Us</a>
-          </div>
-        </div>
-
-        <div class="footer-social">
-          <h3>Follow Us</h3>
-          <div class="social-row">
-            <a href="https://www.instagram.com/smartlivingqa/" aria-label="Instagram" target="_blank" rel="noopener">◎</a>
-            <a href="#contact" aria-label="Facebook">f</a>
-            <a href="https://wa.me/97455815650" aria-label="WhatsApp" target="_blank" rel="noopener">◔</a>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">© 2025 Magical Touch Trading. All Rights Reserved.</div>
-    </footer>
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+LATEST UPDATE
+- Heading changed to “Our Solutions”
+- Smart Lighting removed completely
+- Smart Home, Smart Locks, Sound Systems, Wi-Fi Systems, and Intercom Systems centered in one row on desktop
