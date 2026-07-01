@@ -3,146 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Magical Touch Trading | Smart Home Solutions Qatar</title>
-  <meta name="description" content="Magical Touch Trading provides Smart Home, CCTV, Wi-Fi, Door Locks, Sound System, Intercom and Smart Curtains solutions in Qatar." />
-
-  <link rel="stylesheet" href="style.css" />
+  <title>Magical Touch Trading | Smart Home Qatar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <header class="navbar">
-    <a href="#home" class="brand">
-      <span class="brand-mark">MT</span>
-      <span>Magical Touch</span>
+  <header class="header">
+    <a class="brand" href="#home">
+      <div class="logo">⌂</div>
+      <div><strong>ماجيكال تاتش للتجارة</strong><span>Magical Touch Trading</span></div>
     </a>
-
-    <nav class="nav-links" id="navLinks">
-      <a href="#home">Home</a>
-      <a href="#services">Systems</a>
-      <a href="#projects">Projects</a>
-      <a href="#why">Why Us</a>
-      <a href="#contact">Contact</a>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#products">Products</a><a href="#projects">Projects</a><a href="#why">Why Us</a><a href="#contact">Contact Us</a>
     </nav>
-
-    <button class="menu-btn" id="menuBtn">☰</button>
+    <a class="quote" href="https://wa.me/97455815650">☏ Get a Quote</a>
+    <button class="menu" onclick="document.body.classList.toggle('open')">☰</button>
   </header>
 
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <p class="eyebrow">Smart Home • Security • Low Current</p>
-      <h1>Luxury Smart Living for Villas, Offices & Commercial Spaces</h1>
-      <p class="hero-text">
-        Magical Touch Trading designs, supplies, installs and programs smart home systems,
-        CCTV, Wi‑Fi, sound systems, smart door locks, intercom and motorized curtains across Qatar.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn primary" href="https://wa.me/97455815650" target="_blank">WhatsApp Us</a>
-        <a class="btn secondary" href="#services">View Systems</a>
+  <main id="home" class="hero circuit">
+    <section class="hero-text">
+      <h1>Smart Living<br>Made Simple</h1>
+      <p>We provide complete smart home solutions with the latest technology and premium quality.</p>
+      <div class="features">
+        <div>⌂<span>Smart Home</span></div><div>♢<span>Security</span></div><div>☼<span>Comfort</span></div><div>♧<span>Efficiency</span></div>
       </div>
+      <a class="btn" href="#services">Explore Solutions ›</a>
+    </section>
+    <section class="house" aria-label="Smart home illustration">
+      <!-- Exact house artwork taken from the approved homepage design -->
+      <img class="hero-house-image" src="hero-smart-home.png" alt="Luxury smart home with app control" />
+    </section>
+  </main>
 
-      <div class="hero-stats">
-        <div><strong>Smart</strong><span>Automation</span></div>
-        <div><strong>1 Year</strong><span>Warranty</span></div>
-        <div><strong>Qatar</strong><span>Installation</span></div>
-      </div>
-    </div>
-
-    <div class="hero-card">
-      <div class="device-card active">Smart Home</div>
-      <div class="device-card">Door Locks</div>
-      <div class="device-card">Wi‑Fi System</div>
-      <div class="device-card">Intercom</div>
-    </div>
-  </section>
-
-  <section class="section intro">
-    <p class="section-label">Magical Touch Trading</p>
-    <h2>Complete smart solutions from one company</h2>
-    <p>
-      From consultation to installation and after-sales support, we help you build a smarter,
-      safer and more comfortable space.
-    </p>
-  </section>
-
-  <section class="section" id="services">
-    <div class="section-head">
-      <p class="section-label">Our Systems</p>
-      <h2>Smart systems we provide</h2>
-    </div>
-
-    <div class="services-grid">
-      <article class="service-card"><div class="icon">🏠</div><h3>Smart Home</h3><p>Lighting control, scenes, automation, mobile app control and voice assistant integration.</p></article>
-      <article class="service-card"><div class="icon">🔐</div><h3>Smart Door Locks</h3><p>Fingerprint, password, card, app control and mechanical key access.</p></article>
-      <article class="service-card"><div class="icon">📶</div><h3>Wi‑Fi System</h3><p>Strong Wi‑Fi coverage solutions for villas, offices, shops and commercial spaces.</p></article>
-            <article class="service-card"><div class="icon">🔊</div><h3>Sound System</h3><p>Ceiling speakers and audio systems for majlis, offices, showrooms and homes.</p></article>
-      <article class="service-card"><div class="icon">☎️</div><h3>Intercom</h3><p>Modern intercom systems for buildings, villas, apartments and offices.</p></article>
-      <article class="service-card"><div class="icon">🪟</div><h3>Smart Curtains</h3><p>Motorized curtains with remote, switch, app and automation control.</p></article>
-      <article class="service-card highlight"><div class="icon">⚡</div><h3>Supply & Installation</h3><p>Professional installation, programming and after-sales support.</p></article>
+  <section id="services" class="card solutions">
+    <h2>Our Solutions</h2>
+    <div class="grid six">
+      <article><i>☼</i><b>Smart Lighting</b></article><article><i>▥</i><b>Smart Curtains</b></article><article><i>⌐</i><b>Smart Locks</b></article><article><i>⇆</i><b>Smart Switches</b></article><article><i>◎</i><b>Sound Systems</b></article><article><i>▣</i><b>Intercom Systems</b></article>
     </div>
   </section>
 
-  <section class="split-section" id="projects">
-    <div class="split-text">
-      <p class="section-label">Projects</p>
-      <h2>Designed for modern villas and professional offices</h2>
-      <p>
-        We create simple, elegant and reliable systems — from one-touch lighting scenes
-        to secure access, Wi‑Fi coverage and entertainment.
-      </p>
+  <section id="why" class="card why">
+    <div class="why-intro"><h2>Why Choose<br>Magical Touch?</h2><p>We are committed to providing reliable, innovative and high-quality smart solutions tailored to your lifestyle.</p><a class="btn" href="#contact">Learn More ›</a></div>
+    <div class="why-items"><article>🏅<b>1 Year Warranty</b><p>1 year on equipment & 1 year on installation</p></article><article>👥<b>Professional Team</b><p>Experienced & certified installation team</p></article><article>✅<b>Premium Quality</b><p>Top brands and high quality products</p></article><article>⚙️<b>After Sales Support</b><p>Dedicated support whenever you need us</p></article></div>
+  </section>
 
-      <ul class="check-list">
-        <li>Smart lighting scenes</li>
-        <li>Motorized curtain control</li>
-        <li>Smart locks and access solutions</li>
-        <li>Wi‑Fi and CCTV integration</li>
-      </ul>
-    </div>
-
-    <div class="project-box">
-      <div class="glass-card">
-        <span>Scene Example</span>
-        <h3>Welcome Home</h3>
-        <p>Lights on • Curtains open • Music enabled</p>
-      </div>
+  <section id="products" class="card products">
+    <h2>Featured Products</h2>
+    <div class="grid five">
+      <article><div class="pic switch"></div><b>Smart Switches</b><p>Modern design with smart functionality</p></article>
+      <article><div class="pic panel"></div><b>Smart Panels</b><p>Control everything from one place</p></article>
+      <article><div class="pic lock"></div><b>Smart Door Locks</b><p>Multiple unlocking methods</p></article>
+      <article><div class="pic sensor"></div><b>Smart Sensors</b><p>Comfort and automation for your home</p></article>
+      <article><div class="pic curtain"></div><b>Smart Curtains</b><p>Automatic curtains with smooth control</p></article>
     </div>
   </section>
 
-  <section class="section why" id="why">
-    <div class="section-head">
-      <p class="section-label">Why Choose Us</p>
-      <h2>Professional service with clean finishing</h2>
-    </div>
+  <section class="cta"><span>⌂</span><div><h2>Ready to Make Your Home Smarter?</h2><p>Contact us today for a free consultation and quotation.</p></div><a href="https://wa.me/97455815650">☏ Contact Us</a></section>
 
-    <div class="why-grid">
-      <div><h3>Consultation</h3><p>We help you choose the right system for your space and budget.</p></div>
-      <div><h3>Installation</h3><p>Clean installation and professional device programming.</p></div>
-      <div><h3>Support</h3><p>After-sales support and warranty for peace of mind.</p></div>
-    </div>
-  </section>
-
-  <section class="contact-section" id="contact">
-    <div>
-      <p class="section-label">Contact Us</p>
-      <h2>Ready to make your space smarter?</h2>
-      <p>Contact Magical Touch Trading for a smart home consultation in Qatar.</p>
-    </div>
-
-    <div class="contact-card">
-      <p><strong>Phone:</strong> +974 5581 5650</p>
-      <p><strong>Email:</strong> info@magicaltouchqa.com</p>
-      <p><strong>Location:</strong> Al Aziziya, Qatar</p>
-      <a class="btn primary full" href="https://wa.me/97455815650" target="_blank">Chat on WhatsApp</a>
-    </div>
-  </section>
-
-  <a class="whatsapp" href="https://wa.me/97455815650" target="_blank">WhatsApp</a>
-
-  <footer>
-    © 2026 Magical Touch Trading. All rights reserved.
+  <footer id="contact" class="footer circuit">
+    <div class="foot-brand"><div class="logo">⌂</div><strong>ماجيكال تاتش للتجارة</strong><span>Magical Touch Trading</span><p>We provide full smart home solutions including smart lighting, security, sound systems, Wi‑Fi and more.</p></div>
+    <div class="contact"><p>⌖ Al Aziziya, Doha, Qatar</p><p>☏ 5581 5650</p><p>🌐 magicaltouchqa.com</p><p>◎ smartlivingqa</p></div>
+    <div><h3>Quick Links</h3><p><a href="#home">Home</a> &nbsp; <a href="#products">Products</a></p><p><a href="#services">Services</a> &nbsp; <a href="#contact">Contact Us</a></p></div>
+    <div><h3>Follow Us</h3><div class="social"><a>◎</a><a>f</a><a>☏</a></div></div>
   </footer>
-
-  <script src="script.js"></script>
+  <div class="copy">© 2026 Magical Touch Trading. All Rights Reserved.</div>
 </body>
 </html>
