@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0c0c0c;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #000;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c9a24d;
+}
+
+.logo {
+  color: #c9a24d;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: #c9a24d;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 8%;
+  background:
+    linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.9)),
+    url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  max-width: 720px;
+}
+
+.hero h1 {
+  color: #c9a24d;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #c9a24d;
+  color: #000;
+  padding: 14px 28px;
+  border-radius: 35px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 75px 8%;
+  text-align: center;
+}
+
+.section h2 {
+  color: #c9a24d;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #181818;
+  border: 1px solid #333;
+  padding: 32px 24px;
+  border-radius: 20px;
+  transition: .3s;
+  font-size: 34px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #c9a24d;
+}
+
+.card h3 {
+  color: #c9a24d;
+  margin: 12px 0;
+  font-size: 22px;
+}
+
+.card p {
+  color: #ddd;
+  font-size: 16px;
+}
+
+.dark {
+  background: #151515;
+}
+
+.dark p {
+  max-width: 850px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25D366;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #050505;
+  color: #aaa;
+  padding: 22px;
+  border-top: 1px solid #c9a24d;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav a {
+    margin: 8px;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+}
