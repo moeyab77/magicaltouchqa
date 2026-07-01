@@ -1,24 +1,23 @@
-MAGICAL TOUCH TRADING WEBSITE – FIXED WITH THE SAME DESIGN IMAGES
+MAGICAL TOUCH TRADING WEBSITE — SMART HOME / WI-FI / INTERCOM VERSION
 
-This package is self-contained.
-The hero image and all featured-product images were taken from the exact design screenshot you provided and saved inside the local "assets" folder.
+This update has:
+• Removed Smart Curtains from the website.
+• Removed the Smart Curtains featured product card.
+• Added Smart Home as the main solution category.
+• Added Wi-Fi Systems.
+• Kept Intercom Systems.
+• Removed CCTV from the previous update.
+• Corrected the contact email to info@magicaltouchqa.com.
 
-UPLOAD TO GODADDY:
-1. Extract this ZIP file on your computer.
-2. Open GoDaddy → My Products → Websites & Marketing / Hosting → File Manager.
-3. Open the "public_html" folder.
-4. Upload ALL files and the full "assets" folder from this package.
-5. Keep the folder names exactly the same:
-   index.html
-   style.css
-   script.js
-   assets/
-6. Visit your domain and refresh using Ctrl + F5.
+GITHUB UPLOAD:
+1. Download and extract this ZIP on your computer.
+2. Open your GitHub repository.
+3. Upload / replace index.html, style.css, script.js, and the entire assets folder in the repository root.
+4. Commit changes to the main branch.
+5. Wait a few minutes, then refresh magicaltouchqa.com with Ctrl + F5.
 
-Important:
-- Do NOT upload only index.html.
-- The "assets" folder must be uploaded in the same location as index.html.
-- All images are local, so there are no broken external-image links.
-
-
-UPDATE: CCTV & Security has been removed from the Solutions section and CCTV Cameras has been removed from Featured Products.
+Keep this folder structure exactly:
+index.html
+style.css
+script.js
+assets/

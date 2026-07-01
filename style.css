@@ -256,7 +256,7 @@ button { font: inherit; }
   transform: translateX(-50%);
 }
 .solutions-card { min-height: 198px; padding: 0 33px 15px; }
-.solutions-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.solutions-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 11px; }
 .solution-item {
   min-height: 115px;
   display: flex;
@@ -302,7 +302,7 @@ button { font: inherit; }
 
 .products-card { min-height: 260px; padding: 0 24px 13px; }
 .products-card .section-title { margin-bottom: 11px; }
-.product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
 .product-card {
   overflow: hidden;
   min-height: 199px;
