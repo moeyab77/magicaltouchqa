@@ -1,17 +1,21 @@
-MAGICAL TOUCH TRADING WEBSITE
+MAGICAL TOUCH TRADING WEBSITE – FIXED WITH THE SAME DESIGN IMAGES
 
-HOW TO UPLOAD:
-1. Open your GoDaddy File Manager.
-2. Go to public_html.
-3. Upload ALL files and folders from this package:
-   - index.html
-   - style.css
-   - script.js
-   - assets folder
-4. Do not upload only index.html. The assets folder must stay beside it.
-5. Open your domain in the browser.
+This package is self-contained.
+The hero image and all featured-product images were taken from the exact design screenshot you provided and saved inside the local "assets" folder.
 
-This website uses only local SVG graphics in the assets folder, so it does not rely on external image links.
-WhatsApp: +974 5581 5650
-Email: info@magicaltouchqa.com
-Instagram: @smartlivingqa
+UPLOAD TO GODADDY:
+1. Extract this ZIP file on your computer.
+2. Open GoDaddy → My Products → Websites & Marketing / Hosting → File Manager.
+3. Open the "public_html" folder.
+4. Upload ALL files and the full "assets" folder from this package.
+5. Keep the folder names exactly the same:
+   index.html
+   style.css
+   script.js
+   assets/
+6. Visit your domain and refresh using Ctrl + F5.
+
+Important:
+- Do NOT upload only index.html.
+- The "assets" folder must be uploaded in the same location as index.html.
+- All images are local, so there are no broken external-image links.
