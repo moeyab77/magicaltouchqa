@@ -19,3 +19,6 @@ Important:
 - Do NOT upload only index.html.
 - The "assets" folder must be uploaded in the same location as index.html.
 - All images are local, so there are no broken external-image links.
+
+
+UPDATE: CCTV & Security has been removed from the Solutions section and CCTV Cameras has been removed from Featured Products.
