@@ -1,8 +1,1 @@
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-  link.addEventListener("click", function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
-    });
-  });
-});
+const menuBtn=document.getElementById("menuBtn");const navLinks=document.getElementById("navLinks");menuBtn.addEventListener("click",()=>{navLinks.classList.toggle("open")});document.querySelectorAll(".nav-links a").forEach(link=>{link.addEventListener("click",()=>{navLinks.classList.remove("open")})});const revealItems=document.querySelectorAll(".reveal");const revealOnScroll=()=>{revealItems.forEach(item=>{const itemTop=item.getBoundingClientRect().top;if(itemTop<window.innerHeight-80){item.classList.add("visible")}})};window.addEventListener("scroll",revealOnScroll);window.addEventListener("load",revealOnScroll);
