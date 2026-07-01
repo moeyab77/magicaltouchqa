@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magical Touch Trading</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #000;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #c9a24d;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #c9a24d;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #c9a24d;
+    }
+
+    .hero {
+      min-height: 90vh;
+      padding: 80px 8%;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.85)),
+        url("https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-content {
+      max-width: 650px;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      color: #c9a24d;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #c9a24d;
+      color: #000;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 36px;
+      color: #c9a24d;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 18px;
+      border: 1px solid #333;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: #c9a24d;
+    }
+
+    .card h3 {
+      color: #c9a24d;
+      margin-bottom: 12px;
+      font-size: 22px;
+    }
+
+    .about {
+      background: #151515;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 850px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .contact {
+      background: #000;
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #080808;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      border-top: 1px solid #c9a24d;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 15px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Magical Touch</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Smart Living Starts Here</h1>
+      <p>
+        Magical Touch Trading provides modern smart home, security,
+        Wi-Fi, sound system, intercom, and automation solutions in Qatar.
+      </p>
+      <a class="btn" href="https://wa.me/97455815650">Contact Us on WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="title">Our Systems</h2>
+
+    <div class="services">
+      <div class="card">
+        <h3>Smart Home</h3>
+        <p>Control lights, curtains, scenes, and devices from your phone or voice assistant.</p>
+      </div>
+
+      <div class="card">
+        <h3>Door Locks</h3>
+        <p>Smart locks with fingerprint, password, card, app control, and mechanical key.</p>
+      </div>
+
+      <div class="card">
+        <h3>Wi-Fi System</h3>
+        <p>Strong wireless coverage for villas, offices, shops, and commercial spaces.</p>
+      </div>
+
+      <div class="card">
+        <h3>CCTV</h3>
+        <p>Security camera solutions with professional installation and remote viewing.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sound System</h3>
+        <p>Ceiling speakers and audio systems for homes, offices, and majlis areas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Intercom</h3>
+        <p>Modern intercom systems for homes, villas, buildings, and offices.</p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Curtains</h3>
+        <p>Motorized curtains with app, remote, switch, and automation control.</p>
+      </div>
+
+      <div class="card">
+        <h3>Installation</h3>
+        <p>Professional supply, installation, programming, and after-sales support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="title">About Us</h2>
+    <p>
+      Magical Touch Trading is a Qatar-based company specialized in smart home
+      and electrical low-current solutions. We help clients make their homes,
+      villas, offices, and commercial spaces smarter, safer, and more comfortable.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title">Contact Us</h2>
+    <p><strong>Phone:</strong> +974 5581 5650</p>
+    <p><strong>Email:</strong> info@magicaltouchqa.com</p>
+    <p><strong>Location:</strong> Al Aziziya, Qatar</p>
+    <br />
+    <a class="btn" href="https://wa.me/97455815650">WhatsApp Now</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Magical Touch Trading. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
